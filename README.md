@@ -1,4 +1,4 @@
-### 🏎️ UrbanCruise — A SwiftUI Color Palette Generator
+### 🏎️ UrbanCruise — A Modern Urban Car Rental Platform
 
 UrbanCruise is a clean, user-friendly web app designed to simplify urban car rentals with style and ease. Built using vanilla JavaScript, JSON, and Node.js, this platform delivers an intuitive car browsing and reservation experience — from dynamic search and filtering to a smooth reservation workflow — all hosted on a cloud platform with seamless real-time updates.
 
