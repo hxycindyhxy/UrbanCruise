@@ -1,11 +1,13 @@
 ### 🏎️ UrbanCruise — A SwiftUI Color Palette Generator
 
 UrbanCruise is a clean, user-friendly web app designed to simplify urban car rentals with style and ease. Built using vanilla JavaScript, JSON, and Node.js, this platform delivers an intuitive car browsing and reservation experience — from dynamic search and filtering to a smooth reservation workflow — all hosted on a cloud platform with seamless real-time updates.
+
 <br>
 
 ### 📖 The Story Behind
 
 UrbanCruise stands out by focusing on renting not just any cars, but carefully selected, fashionable vehicles that fit a contemporary urban lifestyle. The website itself mirrors this aesthetic through a sleek, modern design that’s both visually appealing and easy to navigate. It’s built for users who value style as much as convenience, helping them quickly find and book a car that matches their taste and needs — without the clutter or confusion of traditional rental sites.
+
 <br>
 
 ### 📱 Features
@@ -32,16 +34,14 @@ UrbanCruise stands out by focusing on renting not just any cars, but carefully s
 
 * ☁️ Hosted on Elastic Beanstalk (or similar), providing a reliable public URL for easy access
 
+
 <br>
 
 ### 📸 Screenshots
 
  Home Page            |  Advanced Search Box             | Checkout Page          
------------------------|-----------------------|-------------------------
-<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 31 31 pm" src="https://github.com/user-attachments/assets/a1d01236-e00d-4571-bd2f-dcb766c05199" />
-|<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 31 59 pm" src="https://github.com/user-attachments/assets/eea04695-e09c-47d0-a588-fa0aa4e824e6" />
-|<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 32 16 pm" src="https://github.com/user-attachments/assets/a69ebff6-3727-4d3b-b7ac-fe4cdf6cf99b" />
-
+---------------------------------|---------------------------------|-----------------------------------
+<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 31 31 pm" src="https://github.com/user-attachments/assets/a1d01236-e00d-4571-bd2f-dcb766c05199" />| <img width="320" height="185" alt="Screenshot 2025-08-08 at 1 31 59 pm" src="https://github.com/user-attachments/assets/eea04695-e09c-47d0-a588-fa0aa4e824e6" />| <img width="320" height="185" alt="Screenshot 2025-08-08 at 1 32 16 pm" src="https://github.com/user-attachments/assets/a69ebff6-3727-4d3b-b7ac-fe4cdf6cf99b" />
 
 <br>
 
