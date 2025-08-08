@@ -38,9 +38,10 @@ UrbanCruise stands out by focusing on renting not just any cars, but carefully s
 
  Home Page            |  Advanced Search Box             | Checkout Page          
 -----------------------|-----------------------|-------------------------
-<img width="1456" height="841" alt="Screenshot 2025-08-08 at 1 31 31 pm" src="https://github.com/user-attachments/assets/a1d01236-e00d-4571-bd2f-dcb766c05199" />
-|<img width="1458" height="844" alt="Screenshot 2025-08-08 at 1 31 59 pm" src="https://github.com/user-attachments/assets/eea04695-e09c-47d0-a588-fa0aa4e824e6" />
-|<img width="1458" height="841" alt="Screenshot 2025-08-08 at 1 32 16 pm" src="https://github.com/user-attachments/assets/a69ebff6-3727-4d3b-b7ac-fe4cdf6cf99b" />
+<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 31 31 pm" src="https://github.com/user-attachments/assets/a1d01236-e00d-4571-bd2f-dcb766c05199" />
+|<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 31 59 pm" src="https://github.com/user-attachments/assets/eea04695-e09c-47d0-a588-fa0aa4e824e6" />
+|<img width="320" height="185" alt="Screenshot 2025-08-08 at 1 32 16 pm" src="https://github.com/user-attachments/assets/a69ebff6-3727-4d3b-b7ac-fe4cdf6cf99b" />
+
 
 <br>
 
