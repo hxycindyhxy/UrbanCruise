@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Urban Cruise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- home page -->
+      <a href="index.html" class="header-button" id="header-home-button"> Home </a>
+
+      <!-- logo-->
+      <a href="index.html" id="logo-button">
+        <img src="img/Logo.png" alt="Logo" />
+      </a>
+
+      <!-- reservation page -->
+      <a href="reservation.html" class="header-button" id="header-reserve-button"> Reservation </a>
+    </header>
+
+    <!-- search box -->
+    <div id="search-box">
+      <form>
+        <input
+          type="text"
+          placeholder="&nbsp;&nbsp;What are you looking for?"
+          name="search"
+          id="search-input"
+        />
+        <button>
+          <img src="img/search.png" alt="search icon" />
+        </button>
+      </form>
+      <ul id="suggestions"></ul>
+    </div>
+
+    <div class="feature-container">
+      <div class="dropdown" id="type">
+        <span id="type-label">&nbsp;&nbsp;&nbsp;&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;ˇ&nbsp;&nbsp;</span>
+        <ul class="filter-options" id="type-options"></ul>
+      </div>
+      <div class="dropdown" id="brand">
+        <span id="brand-label">&nbsp;&nbsp;&nbsp;&nbsp;Brand&nbsp;&nbsp;&nbsp;&nbsp;ˇ&nbsp;&nbsp;</span>
+        <ul class="filter-options" id="brand-options"></ul>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <!-- example 01
+      <div class="item-container">
+        <img src="img/mazda_3.png" alt="mazda_3" />
+        <div class="car-title-container">
+          <div class="car-name">Mazda</div>
+          <div class="car-model">3</div>
+        </div>
+        <div class="car-description">
+          A reliable and fuel-efficient sedan perfect for daily commuting.
+        </div>
+        <div class="details-container">
+          <div class="details-column">
+            <div class="detail">
+              <img src="img/car.svg" alt="car-icon" />
+              <div>&nbsp;Type:&nbsp;&nbsp;<span>Sedan</span></div>
+            </div>
+            <div class="detail">
+              <img src="img/seats.svg" alt="seats-icon" />
+              <div>&nbsp;Seat:&nbsp;&nbsp;<span>4</span></div>
+            </div>
+            <div class="detail">
+              <img src="img/mile.svg" alt="mile-icon" />
+              <div>&nbsp;Mile:&nbsp;&nbsp;<span>4000&nbsp;miles</span></div>
+            </div>
+          </div>
+          <div class="details-column">
+            <div class="detail">
+              <img src="img/year.svg" alt="year-icon" />
+              <div>&nbsp;Year:&nbsp;&nbsp;<span>2025</span></div>
+            </div>
+            <div class="detail">
+              <img src="img/power.svg" alt="power-icon" />
+              <div>&nbsp;Power:&nbsp;&nbsp;<span>Fuel</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="detail-bottom-container">
+          <div class="detail-bottom-container-left">
+            <div class="daily-price">
+              Price:&nbsp;&nbsp;<span>$125</span>&nbsp;/day
+            </div>
+            <div class="availability">
+              Availability:&nbsp;&nbsp;<span>2</span>&nbsp;
+            </div>
+          </div>
+          <div class="reserve-button-container">
+            <div>&nbsp;&nbsp;</div>
+            <button class="reserve-button">
+              &nbsp;&nbsp;Reserve&nbsp;&nbsp;
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <img src="img/mazda_3.png" alt="mazda_3" />
+      </div>
+      <div class="item-container">
+        <img src="img/mazda_3.png" alt="mazda_3" />
+      </div>
+      <div class="item-container">
+        <img src="img/mazda_3.png" alt="mazda_3" />
+      </div> -->
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

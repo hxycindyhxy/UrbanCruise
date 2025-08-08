@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Cruise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <!-- home page -->
+    <a href="index.html" class="header-button" id="header-home-button"> Home </a>
+  
+    <!-- logo-->
+    <a href="index.html" id="logo-button">
+      <img src="img/Logo.png" alt="Logo" />
+    </a>
+  
+    <!-- reservation page -->
+    <a href="reservation.html" class="header-button" id="header-reserve-button"> Reservation </a>
+  </header>
+  
+  <div id="reservation-body">
+    <!-- message when no car has been selected -->
+    <div id="no-selection-message">
+      No car selected. Please go back and choose a vehicle.
+    </div>
+    
+    <!-- Car info step -->
+    <!-- option available -->
+    <div id="option-available">
+      <div class="step-container" id="car-info-step">
+        <div class="step">1</div>
+        <div class="step-content">
+          Car Information
+        </div>
+      </div>
+      <div class="car-info-container" id="car-info-section">
+        <div class="vertical-divider"></div>
+        <img src="" alt="car-img" class="car-info-img">
+        <div class="car-details">
+          <div class="car-name"></div>
+          <div class="car-description">
+          </div>
+          <div class="car-more-info">
+            <div class="detail">
+              <img src="img/car.svg" alt="car-icon" />
+              <div>&nbsp;Type:&nbsp;&nbsp;<span></span></div>
+            </div>
+            <div class="detail">
+              <img src="img/seats.svg" alt="seats-icon" />
+              <div>&nbsp;Seat:&nbsp;&nbsp;<span></span></div>
+            </div>
+            <div class="detail">
+              <img src="img/year.svg" alt="year-icon" />
+              <div>&nbsp;Year:&nbsp;&nbsp;<span></span></div>
+            </div>
+            <div class="detail">
+              <img src="img/power.svg" alt="power-icon" />
+              <div>&nbsp;Power:&nbsp;&nbsp;<span></span></div>
+            </div>
+            <div class="detail">
+              <img src="img/mile.svg" alt="mile-icon" />
+              <div>&nbsp;Mile:&nbsp;&nbsp;<span>4000&nbsp;miles</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="step-container">
+        <div class="step">2</div>
+        <div class="step-content">
+          Rental Period
+        </div>
+      </div>
+      
+      <div class="rental-period-container">
+        <div class="vertical-divider"></div>
+        <div>
+          <form class="date-range-picker">
+            <fieldset>
+              <div class="inputs">
+                <div class="input-group">
+                  <label for="start-date">Start Date</label>
+                  <input type="date" id="start-date" name="start-date" required />
+                </div>
+                <div class="input-group">
+                  <label for="end-date">End Date</label>
+                  <input type="date" id="end-date" name="end-date" required />
+                </div>
+              </div>
+            </fieldset>
+          </form>
+          <div class="rental-title">Total Days:&nbsp;&nbsp;<span>1</span></div>
+        </div>
+      </div>
+
+      <div class="step-container">
+        <div class="step">3</div>
+        <div class="step-content">
+          Reservation Details
+        </div>
+      </div>
+
+      <div class="reservation-form-container">
+        <div class="vertical-divider"></div>
+        <div id="reservation-info-form">
+
+          <div class="name-input-container">
+            <div id="first-name-block" class="input-vertical">
+              <div class="sub-sub-title">First Name</div>
+              <input type="text" placeholder="&nbsp;First Name" name="first-name" id="first-name-input">
+            </div>
+            <div id="last-name-block" class="input-vertical">
+              <div class="sub-sub-title">Last Name</div>
+              <input type="text" placeholder="&nbsp;Last Name" name="last-name" id="last-name-input">
+            </div>
+            <div class="alert" id="first-name-alert"></div>
+            <div class="alert" id="last-name-alert"></div>
+          </div>
+
+          <div id="driver-license-container">
+            <div class="sub-sub-title">Driver License No.</div>
+            <div class="input-alert-container">
+              <input type="text" placeholder="&nbsp;Driver License No." name="driver-license" id="driver-license-input">
+              <div class="alert" id="driver-license-alert"></div>
+            </div>
+          </div>
+
+          <div id="mobile-number-input-container">
+            <div class="sub-sub-title">Mobile Number</div>
+            <div class="input-alert-container">
+              <input type="text" placeholder="&nbsp;Mobile Number" name="mobile-number" id="mobile-input">
+              <div class="alert" id="mobile-alert"></div>
+            </div>
+          </div>
+
+          <div id="email-input-container">
+            <div class="sub-sub-title">Email Address</div>
+            <div class="input-alert-container">
+              <input id="email-input" type="text" placeholder="&nbsp;Email">
+              <div class="alert" id="email-alert"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-container">
+        <div class="step">4</div>
+        <div class="step-content">
+          Confirmation
+        </div>
+      </div>
+
+      <div class="confirmation-container">
+        <div class="vertical-divider"></div>
+        <div class="confirmation-option">
+          <div class="rental-title" id="total-price">Total Price:&nbsp;&nbsp;$&nbsp;<span>150</span></div>
+          <div class="yes-option">
+            <div class="last-msg">I wish to confirm this reservation:</div>
+            <button id="place-order-btn" type="button" disabled>Confirm</button>
+          </div>
+          <button id="cancel-btn" type="button">
+            Cancel
+          </button>
+        </div>
+      </div>
+
+      <div class="step-container" id="last-step">
+        <div class="step">5</div>
+        <div class="step-content">
+          Send Request
+        </div>
+      </div>
+    </div>
+
+    <!-- show this when no cars are available -->
+    <div id="no-availability-message">
+      <div class="step-container">
+        <div class="step">!</div>
+        <div class="step-content">
+          Availability Message
+        </div>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*It looks like this car is no longer available. Please choose another vehicle.
+      <a href="index.html" class="header-button" id="no-availability-home-button">Choose Another Car</a>
+    </div>
+  </div>
+
+  <script src="reservation.js"></script>
+</body>
+</html>
