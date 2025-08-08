@@ -59,7 +59,6 @@ UrbanCruise stands out by focusing on renting not just any cars, but carefully s
 - `node_modules/`
 - `public/`
   - `img/`
-  - `.DS_Store`
   - `confirm.html`
   - `confirm.js`
   - `index.html`
@@ -67,13 +66,12 @@ UrbanCruise stands out by focusing on renting not just any cars, but carefully s
   - `reservation.html`
   - `reservation.js`
   - `style.css`
-  - `Procfile`
-  - `cars.json`
-  - `orders.json`
-  - `package-lock.json`
-  - `package.json`
-  - `server.js`
-  - `node_modules/`
+- `Procfile`
+- `cars.json`
+- `orders.json`
+- `package-lock.json`
+- `package.json`
+- `server.js`
 
 <br>
 
